@@ -1,0 +1,105 @@
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+- Color
+#ffe066
+#fcc419
+#495057
+
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #212529;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  width: 100%;
+  margin-bottom: 9.6rem;
+}
+
+.header.sticky {
+  position: fixed;
+  background-color: rgb(255, 224, 102, 0.9);
+}
+
+.title-section {
+  display: flex;
+  align-items: center;
+}
+
+.title-img {
+  width: 12rem;
+  padding: 2rem 2rem;
+}
+
+nav {
+  height: 5rem;
+}
+
+/* Introduction */
+.introduction-section {
+  margin-bottom: 9.6rem;
+}
+
+.introduction {
+  max-width: 150rem;
+  margin: 0 auto;
+  padding: 2rem 15rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.8rem;
+  align-items: center;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.introduction-text {
+  font-size: 2rem;
+  line-height: 4rem;
+  margin-bottom: 2rem;
+}
+
+.introduction-btn-box {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 2rem;
+  color: #495057;
+  text-decoration: none;
+  background-color: #fcc419;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #ffe066;
+}
+
+.introduction-img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.05);
+}
