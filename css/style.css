@@ -14,19 +14,7 @@ html {
 }
 
 .header {
-  width: 100%;
   margin-bottom: 9.6rem;
-}
-
-.header.sticky {
-  position: fixed;
-  background-color: rgb(255, 224, 102, 0.9);
-}
-
-.title-section {
-  display: flex;
-  align-items: center;
-  margin: 3rem 0;
 }
 
 .title-img {
