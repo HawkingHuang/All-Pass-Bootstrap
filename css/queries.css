@@ -10,17 +10,6 @@
     justify-self: center;
     width: 42.5%;
   }
-
-  .footer-boxs {
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    text-align: center;
-  }
-
-  .logo-col {
-    grid-row: 2 / 3;
-    justify-self: center;
-  }
 }
 
 /* Below 1088px */
@@ -121,14 +110,6 @@
   .plan {
     width: 100%;
   }
-
-  .footer-boxs {
-    grid-template-columns: 1fr;
-  }
-
-  .logo-col {
-    grid-row: 4;
-  }
 }
 
 /* Below 608px */
@@ -142,10 +123,6 @@
   }
 
   .testimonials-section {
-    padding: 2rem 2rem;
-  }
-
-  .footer-section {
     padding: 2rem 2rem;
   }
 }

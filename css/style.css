@@ -26,6 +26,7 @@ html {
 .title-section {
   display: flex;
   align-items: center;
+  margin: 3rem 0;
 }
 
 .title-img {
@@ -74,7 +75,6 @@ nav {
 .btn:link,
 .btn:visited {
   font-size: 2rem;
-  color: #495057;
   text-decoration: none;
   background-color: #fcc419;
   padding: 1rem 2rem;
@@ -111,7 +111,7 @@ nav {
 .plans-freedom-section {
   max-width: 150rem;
   margin: 0 auto;
-  padding: 2rem 15rem;
+  padding: 5rem 15rem;
   margin-bottom: 9.6rem;
 }
 
@@ -188,7 +188,7 @@ nav {
 .testimonials-section {
   max-width: 150rem;
   margin: 0 auto;
-  padding: 2rem 15rem;
+  padding: 5rem 15rem;
   margin-bottom: 9.6rem;
 }
 
@@ -233,16 +233,10 @@ nav {
   margin-bottom: 9.6rem;
 }
 
-.footer-boxs {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
-  justify-items: center;
-}
-
 .logo-part {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .logo-part p {
@@ -270,35 +264,18 @@ nav {
   margin-top: 4.4rem;
 }
 
-.address-col {
-  margin-top: 2.4rem;
-  line-height: 5rem;
-}
-
-.address-col h4 {
-  font-size: 1.6rem;
-}
-
-.address-col p {
-  font-size: 1.4rem;
-}
-
+.address-col,
 .nav-col {
   margin-top: 2.4rem;
   line-height: 5rem;
 }
 
-.nav-col h4 {
+.footer-box h4 {
   font-size: 1.6rem;
+  font-weight: 700;
 }
 
-.nav-col-list {
-  list-style: none;
-}
-
-.nav-col-link:link,
-.nav-col-link:visited {
+.address-col p,
+.nav-col p {
   font-size: 1.4rem;
-  text-decoration: none;
-  color: #495057;
 }
