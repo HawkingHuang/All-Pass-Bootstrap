@@ -13,7 +13,26 @@ html {
   font-size: 62.5%;
 }
 
-.header {
+/* Common */
+.header,
+.introduction-section {
+  margin-bottom: 9.6rem;
+}
+
+.introduction-text-box h2,
+.plans-freedom-text-box h2,
+.testimonials-section h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.plans-freedom-section,
+.testimonials-section {
+  max-width: 150rem;
+  margin: 0 auto;
+  padding: 5rem 15rem;
   margin-bottom: 9.6rem;
 }
 
@@ -27,25 +46,14 @@ nav {
 }
 
 /* Introduction */
-.introduction-section {
-  margin-bottom: 9.6rem;
-}
-
 .introduction {
   max-width: 150rem;
   margin: 0 auto;
   padding: 2rem 15rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 9.8rem;
   align-items: center;
-}
-
-.introduction-text-box h2 {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 3rem;
-  text-align: center;
 }
 
 .introduction-text {
@@ -63,16 +71,8 @@ nav {
 .btn:link,
 .btn:visited {
   font-size: 2rem;
-  text-decoration: none;
-  background-color: #fcc419;
   padding: 1rem 2rem;
   border-radius: 10px;
-  transition: all 0.3s;
-}
-
-.btn:hover,
-.btn:active {
-  background-color: #ffe066;
 }
 
 .introduction-img {
@@ -96,20 +96,6 @@ nav {
 }
 
 /* Plans Freedom */
-.plans-freedom-section {
-  max-width: 150rem;
-  margin: 0 auto;
-  padding: 5rem 15rem;
-  margin-bottom: 9.6rem;
-}
-
-.plans-freedom-text-box h2 {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 3rem;
-  text-align: center;
-}
-
 .plans-freedom-text {
   font-size: 2rem;
   line-height: 4rem;
@@ -117,24 +103,14 @@ nav {
   text-align: center;
 }
 
-.plans-freedom-plans-box {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-}
-
 .plan {
-  width: 85%;
   padding: 1rem 1.8rem;
   text-align: center;
-  border-radius: 10px;
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   transition: all 0.4s;
 }
 
 .plan:hover {
   transform: translateY(-1rem);
-  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.1);
 }
 
 .plan-title {
@@ -142,19 +118,17 @@ nav {
   margin-bottom: 4rem;
 }
 
-.plan-title h3 {
-  font-size: 3.6rem;
+.plan-title h3,
+.plan-title p {
+  font-size: 3rem;
   font-weight: 700;
 }
 
 .plan-title p {
-  font-size: 3rem;
-  font-weight: 700;
   color: #228be6;
 }
 
 .plan-content {
-  color: #343a40;
   line-height: 4rem;
 }
 
@@ -164,35 +138,10 @@ nav {
 }
 
 .plan-custom {
-  color: #343a40;
   font-size: 2.4rem;
 }
 
-.plan-content-checkmark {
-  width: 2.4rem;
-}
-
 /* Testimonials */
-.testimonials-section {
-  max-width: 150rem;
-  margin: 0 auto;
-  padding: 5rem 15rem;
-  margin-bottom: 9.6rem;
-}
-
-.testimonials-section h2 {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 3rem;
-  text-align: center;
-}
-
-.testimonials-box {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 3.6rem;
-}
-
 .testimonial {
   max-width: 80rem;
   height: 24rem;
@@ -218,7 +167,6 @@ nav {
   max-width: 150rem;
   margin: 0 auto;
   padding: 2rem 15rem;
-  margin-bottom: 9.6rem;
 }
 
 .logo-part {
@@ -244,7 +192,7 @@ nav {
 .social-icon {
   height: 2.4rem;
   width: 2.4rem;
-  color: #495057;
+  color: #212529;
 }
 
 .copyright {
