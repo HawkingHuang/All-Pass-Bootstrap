@@ -10,6 +10,11 @@
     justify-self: center;
     width: 42.5%;
   }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none !important;
+  }
 }
 
 /* Below 1088px */
